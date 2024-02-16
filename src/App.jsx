@@ -3,6 +3,7 @@ import { useState } from "react";
 import Genre from "./components/Genre";
 import Rating from "./components/Ratings";
 import MOVIES from "./movies"
+import filmPic from "./assets/film.png"
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState();
@@ -27,7 +28,7 @@ function App() {
   return (
     <div>
       <header>
-        <img src="/src/assets/film.png" alt="pic of film" />
+        <img src={filmPic} alt="pic of film" />
         <h1>Movies</h1>
         <p>
           Choose a genre and desired rating!
