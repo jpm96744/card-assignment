@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <header>
-        <img src="src/assets/film.png" alt="pic of film" />
+        <img src="/src/assets/film.png" alt="pic of film" />
         <h1>Movies</h1>
         <p>
           Choose a genre and desired rating!
